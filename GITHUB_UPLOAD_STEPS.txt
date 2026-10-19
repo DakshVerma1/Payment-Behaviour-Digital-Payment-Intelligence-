@@ -1,0 +1,33 @@
+GITHUB UPLOAD STEPS (Mac or Windows)
+
+Option A — GitHub website (no terminal):
+1. Sign in to GitHub and choose New repository.
+2. Name it: payment-behaviour-digital-payment-intelligence
+3. Choose Public if you want it visible in your portfolio, or Private if you only want to share it with your instructor.
+4. Do not initialize the online repository with a README or license because this folder already contains them.
+5. On the new repository page, choose the option to upload files.
+6. Upload the contents of this folder. If the browser does not accept a folder upload, drag the files/folders from inside this folder into the upload page. Keep the plots/ and submission_materials/ folders.
+7. Commit the upload with a message such as: "Add payment behaviour ML project".
+
+Option B — Terminal (recommended for repeat updates):
+1. Install Git if it is not already installed: https://git-scm.com/downloads
+2. Open Terminal and change directory to this extracted project folder:
+   cd /path/to/Payment_Behaviour_Digital_Payment_Intelligence_GitHub
+3. Initialize Git and commit:
+   git init
+   git add .
+   git commit -m "Add payment behaviour ML project"
+   git branch -M main
+4. Create an empty repository on GitHub named:
+   payment-behaviour-digital-payment-intelligence
+5. Add your own repository URL (replace YOUR-USERNAME):
+   git remote add origin https://github.com/YOUR-USERNAME/payment-behaviour-digital-payment-intelligence.git
+   git push -u origin main
+
+For later changes:
+   git status
+   git add .
+   git commit -m "Update project"
+   git push
+
+Do not share your GitHub password or personal access token in chat. If Git asks you to authenticate, use GitHub's supported browser/device login or credential manager. Do not use --force for a normal first upload.
